@@ -1,0 +1,32 @@
+Openai response for prompt:using artificial intelligence write a program in C language added to number
+************************
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    // initialize variables
+    int num, sum = 0, temp;
+
+    // prompt user for input
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    // create artificial intelligence loop
+    while (num != 0) {
+        // generate artificial intelligence number by adding 1 to input number
+        temp = num + 1;
+        // add artificial intelligence number to sum
+        sum += temp;
+        // update input number to artificial intelligence number
+        num = temp;
+    }
+
+    // print result
+    printf("\nThe sum of the numbers added by the AI is: %d\n", sum);
+
+    return 0;
+}

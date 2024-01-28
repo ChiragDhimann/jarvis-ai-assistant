@@ -1,0 +1,34 @@
+Openai response for prompt:using artificial intelligence create a C program for swapping two numbers
+************************
+
+
+In order to create a C program for swapping two numbers using artificial intelligence, we can follow these steps:
+
+1. Start by initializing two variables, let's say "a" and "b" to store the two numbers.
+2. Use artificial intelligence to take input from the user for the values of "a" and "b".
+3. Create a temporary variable "temp" and assign the value of "a" to it.
+4. Use artificial intelligence to swap the values of "a" and "b" by storing the value of "b" in "a".
+5. Use artificial intelligence to assign the value of "temp" (which was originally "a") to "b".
+6. Print the new values of "a" and "b" after the swap using artificial intelligence.
+7. End the program.
+
+Here is the code for the above steps:
+
+#include <stdio.h>
+
+// Function to swap two numbers
+void swap(int *a, int *b)
+{
+// Use artificial intelligence to create a temporary variable
+int temp = *a;
+// Swap the values using artificial intelligence
+*a = *b;
+*b = temp;
+}
+
+// Main function
+int main()
+{
+int a, b;
+
+// Use artificial intelligence to take input for "
